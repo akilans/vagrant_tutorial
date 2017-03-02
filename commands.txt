@@ -1,0 +1,43 @@
+#Commands & Its Usage
+
+---> Install Virtual Box & Vagrant
+
+---> Vagrant used to Create and configure lightweight, reproducible, and portable development environments.
+
+--->  Create an empty Directory & go into that
+
+---> run "vagrant init" -> [ Creates Vagrantfile with default values ]
+
+---> Edit the file Vagrantfile & change "config.vm.box" value to "ubuntu/trusty64". 
+
+---> Run "vagrant up". It reads Vagrantfile and downloads & install Vagrant box "ubuntu/trusty64" [Ubuntu 16.04.2 LTS] defined in Vagrantfile from "https://atlas.hashicorp.com/"
+
+---> Run "vagrant ssh" it Logins to the vagrant box ubuntu 16.04.2
+
+---> Run "vagrant suspend" -> suspends the machine
+
+---> Run "vagrant halt" -> Shutdown the machine
+
+---> Run "vagrant up" -> To start the machine
+
+---> Run "vagrant destroy" -> to remove machine
+
+---> Run "vagrant status" -> to view the status of the machine
+
+---> Run "vagrant reload" -> "vagrant halt + vagrant up" command [ Shut down & Restart ]
+
+---> http://www.vagrantbox.es/ --> Lists all the available vagrant boxes.
+					$ vagrant box add {title} {url}
+ 					$ vagrant init {title}
+ 					$ vagrant up
+
+---> To save vagrant box of our local machine -> Run "vagrant package --output ubuntu14.box" 
+
+---> To add locally created vagrant box to our local vagrant -> Run "vagrant box add ubuntu-git-14.0 ubuntu14.box"
+
+---> Run "vagrant box list" -> It lists all the available vagrant boxes of our local machine
+
+
+
+ 
+
