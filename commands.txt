@@ -37,7 +37,6 @@
 
 ---> Run "vagrant box list" -> It lists all the available vagrant boxes of our local machine
 
-
-
+---> Run "vagrant box update" -> To update all the available boxes in our local
  
 
